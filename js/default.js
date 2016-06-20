@@ -1,4 +1,4 @@
-var result=window.confirm('ありがとうございます。後日もう少し付け足します。準備OK?');
+var result=window.confirm('。準備OK?');
 
 document.getElementById('choice').textContent=result;
 
