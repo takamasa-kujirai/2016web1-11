@@ -14,3 +14,4 @@ message = '残念もっと小さいです';
 message = '0~9の数字を入力してください';
 }
 document.getElementById('choice').textContent = message;
+continue;
