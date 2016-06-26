@@ -2,8 +2,8 @@ var result=window.confirm('準備OK?');
 
 document.getElementById('choice').textContent=result;
 
-var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください'));
+var number = Math.floor(Math.random()*20+1);
+var answer = parseInt(window.prompt('数あてゲーム。1~20の数字を入力してください'));
 
 var message;
 if(answer === number) {
