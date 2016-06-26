@@ -1,9 +1,11 @@
 
-var number = Math.floor(Math.random()*10);
+int i=0;
+
 for(i=0; i<10; i++){
+var number = Math.floor(Math.random()*10);
+
 var answer = parseInt(window.prompt('数あてゲーム。0~9の数字を入力してください'));
 
-int i=0;
 var message;
 if(answer === number) {
 message = 'あたり';
