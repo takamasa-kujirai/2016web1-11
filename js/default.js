@@ -1,6 +1,3 @@
-var result=window.confirm('準備OK?');
-
-document.getElementById('choice').textContent=result;
 
 var number = Math.floor(Math.random()*21);
 var answer = parseInt(window.prompt('数あてゲーム。0~20の数字を入力してください'));
